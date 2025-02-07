@@ -35,7 +35,7 @@
     "background.enabled": true,
     "background.fullscreen": {
         "images": [
-            "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/Soifon_simple.png",
+            // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/Soifon_simple.png",
             // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/Soifon_detail.jpg",
             // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/TP_spread.jpg",
             // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/TP_split.jpg",
@@ -53,6 +53,25 @@
             // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/Fiery_knight_1.jpg",
             // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/Fiery_knight_2.jpg",
             // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/Fiery_knight_3.jpg",
+            // ↓↓↓               WINDOWS ROUTES              ↓↓↓
+            "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Soifon_simple.png",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Soifon_detail.jpg",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/TP_spread.jpg",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/TP_split.jpg",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Saint.png",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/MM_spread.jpg",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/MM_mask.jpg",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/MM_forest.jpg",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/MM_diety.jpg",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Halo.png",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Berserk_spread.jpg",
+            // ↓↓↓          CERTIFIED KNIGHT MOMENT          ↓↓↓
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Knights_respite_1.png",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Knights_respite_2.png",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Knights_respite_3.png",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Fiery_knight_1.jpg",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Fiery_knight_2.jpg",
+            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Fiery_knight_3.jpg",
         ],
         "opacity": 0.15,
         "size": "100% 100%",
@@ -66,4 +85,29 @@
     "editor.stickyScroll.maxLineCount": 10,
     "terminal.integrated.cursorBlinking": true,
     "editor.cursorBlinking": "smooth",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\Windows\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
 }
