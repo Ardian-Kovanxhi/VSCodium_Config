@@ -1,0 +1,5 @@
+writes current extensions
+codium --list-extensions | tee ./extensions.txt
+
+installs extensions from txt file
+xargs -n1 codium --install-extension < ./extensions.txt
