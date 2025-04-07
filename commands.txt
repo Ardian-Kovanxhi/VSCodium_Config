@@ -1,5 +1,7 @@
-writes current extensions
+writes current extensions | works on both linux and windows
 codium --list-extensions | tee ./extensions.txt
 
 installs extensions from txt file
 xargs -n1 codium --install-extension < ./extensions.txt
+windows equivalent
+Get-Content ./extensions.txt | ForEach-Object { codium --install-extension $_ }
