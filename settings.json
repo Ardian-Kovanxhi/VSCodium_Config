@@ -43,7 +43,7 @@
             // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/MM_spread.jpg",
             // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/MM_mask.jpg",
             // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/MM_forest.jpg",
-            "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/MM_diety.jpg",
+            // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/MM_diety.jpg",
             // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/Halo.png",
             // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/Berserk_spread.jpg",
             // "file:///home/ardian-kovanxhi/.config/VSCodium/User/images/Berserk_moon.jpg",
@@ -64,7 +64,7 @@
             // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/MM_spread.jpg",
             // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/MM_mask.jpg",
             // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/MM_forest.jpg",
-            // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/MM_diety.jpg",
+            "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/MM_diety.jpg",
             // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Halo.png",
             // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Berserk_spread.jpg",
             // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Berserk_moon.jpg",
@@ -77,7 +77,7 @@
             // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Fiery_knight_2.jpg",
             // "file:///C:/Users/akova/AppData/Roaming/VSCodium/User/images/Fiery_knight_3.jpg",
         ],
-        "opacity": 0.2,
+        "opacity": 0.25,
         "size": "100% 100%",
         "position": "center",
         "interval": 0,
@@ -113,7 +113,7 @@
             ]
         }
     },
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
     "editor.minimap.enabled": false,
-    "workbench.colorTheme": "Black",
+    "workbench.colorTheme": "AMOLED",
 }
